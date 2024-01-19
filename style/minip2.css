@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "shabnam";
+    src: url(../font/Shabnam-FD.woff2) format(woff2);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 5px;
+  }
+}
+*{
+    margin: 0;
+}
+body{
+    font-family: shabnam;
+}
+.continer{
+  display: flex;
+  flex-direction: row;
+  width: 1216px;
+  margin-right: auto;
+  margin-left: auto;  
+  gap: 8px;
+  justify-content: space-around;
+}
+
+
+.section__head{
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  width: 1216px;
+  margin-left: auto;
+  margin-top: 56px;
+ 
+}
+.section__title{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.section__icon{
+  width: 22px;
+  height: 22px;
+  color: #E91E63;
+}
+.section__link{
+  text-decoration: none;
+  color: #1E88E5;
+}
+
+.row{
+  display: flex;
+
+}
+.product{
+  width: 258px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  padding: 24px;
+  margin-top: 24px;
+}
+.product__img{
+  width: 100%;
+}
+.product__name{
+  color:#424242 ;
+  font-size: 14px;
+  font-weight: normal;
+  min-height: 58px;
+  line-height: 1.5;
+
+}
+.product__link{
+  text-decoration: none;
+  color: inherit;
+
+}
+.product__offer{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+.product__offer__percent{
+  font-weight: bold;
+  color: #01579B;
+  background-color: #81D4FA;
+  border-radius: 3px;
+  padding: 2px 4px;
+  display: block;
+}
+.product__offer__price{
+  text-decoration: line-through;
+  color: #616161;
+}
+.product__wraper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__price{
+  display: flex;
+  align-items: center;
+  gap: 4px; 
+}
+.product_price_number{
+  font-weight: bold;
+  font-size: 18px;
+}
+.product_price_unit{
+  font-size: 14px;
+
+}
+.product__ratinig{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.product__ratinig__num{
+  font-size: 14px;
+  color: #616161;
+}
+.product__ratinig_icon{
+  width: 18px;
+  height: 18px;
+  color: #FFD600;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4FC3F7;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: rgba(200, 100, 50, 0.7); /* رنگ آر جی همراه با شفافیت */
+}
